@@ -1,4 +1,4 @@
-# Crew Pay Manager QA UI (AC)
+# Parish Management Ui Test Framework (STIOCDublin)
 
 This repository contains automated UI tests for the Parish Management platform, using [Playwright](https://playwright.dev/) with [TypeScript](https://playwright.dev/docs/test-typescript).
 
@@ -17,7 +17,7 @@ This repository contains automated UI tests for the Parish Management platform, 
 
 ### Local execution
 
-- `npx cross-env CLIENT=air-canada USER=admin npm run tests:local -- "-g @smoke"` - Run ui tests
+- `npm run test:local` - Run ui tests
 
 ### Additional Playwright Test Commands
 
@@ -47,6 +47,6 @@ This repository contains automated UI tests for the Parish Management platform, 
 
 ## Project Setup and Requirements
 
-1. Run `npm install`
+1. Clone repo and Run `npm install`
 2. Create a `.env` file with `BASE_URL`, `TEST_USERNAME`, `TEST_PASSWORD`.
 3. Run `npm run test:local`
